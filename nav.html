@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+   
+    <title>My First Website</title>
+</head>
+<body>
+    <div class="top-nav" id="topnav">
+        <a href="" >Home </a>
+        <a href="" >News </a>
+        <a href="" >About </a>
+        <a href="" >Contact </a>
+       <a  href="javascript:void(0)" class="icon" onclick="myfunction()"
+       ><i class="fa fa-bars" aria-hidden="true"></i> </a>
+    </div>
+    <div class="container">
+        <!-- Header use Ctrl + / to comment code  -->
+            <div class="head">
+                <div class="head-text">
+                    <h1>Hello Welcome to My First Wevsite</h1>
+                        <p>I am a  full stack web developer</p>
+                </div>
+                <div class="head-img">
+                    <img src="https://freepngimg.com/thumb/happy_person/4-2-happy-person-transparent.png" alt=""/>
+                </div>
+            </div>
+    </div>
+    <!-- End Header -->
+    <!-- Image and Card -->
+
+        <div class="grid">
+            <div class="grid-title">
+                <h1>What I can Do</h1>
+                </div>
+                <!-- Card 1 -->
+            <div class="card">
+                <div class="card-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/544px-HTML5_logo_resized.svg.png" alt="">
+                        <div>
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electroni </p>
+                        </div>        
+                </div>
+        </div>
+                <!-- Card 2 --> 
+                <div class="card">
+                    <div class="card-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/544px-HTML5_logo_resized.svg.png" alt="">
+                            <div>
+                               <p>Lorem ipsum dolor sit amot  </p>
+                            </div>        
+                    </div>
+            </div>
+                        <!-- Card 3 -->
+                        <div class="card">
+                            <div class="card-item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/544px-HTML5_logo_resized.svg.png" alt="">
+                                    <div>
+                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electroni  </p>
+                                    </div>        
+                            </div>
+                    </div>
+<!-- End Imge Card-->
+<!-- Iframe -->
+        <div>
+            <div class="iframe-title">
+                <h1>Watch My Videos here</h1>
+            </div>
+        <iframe width="100%" height="506" 
+            src="https://www.youtube.com/embed/hb7Q33ysCwI" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        </div>
+        <!-- end ifram -->
+            <!-- From and Footer -->
+<div class="footer">
+    <div class="footer-title">
+        <h1>Get In Touch</h1>
+    </div>
+    <div class="myForm">
+        <form action="#">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" class="form-control" id="Name">
+
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input  type="email" class="form-control" id="Email">
+           
+
+            </div>
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea rows="10"
+                class="form-control"  id="Message">
+                
+                </textarea>
+                
+
+            </div>
+            <div class="form-group">
+                <button class="form-control">Send Message</button>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+        <div class="footer-note">
+            <div class="footer-text">
+                <p>Follow me on my social medias</p>
+            </div>
+                <div class="footer-link">
+                    <span><i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                </div>
+        </div>
+
+        </div>
+    <script>
+        function myfunction()
+        { 
+            var x= document.getElementById("topnav");
+            if(x.className ==="top-nav")
+            {
+                x.className +=" responsive";
+            }
+                else {
+                    x.className="top-nav";
+
+                }
+        }
+    </script>
+</body>
+</html>
